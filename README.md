@@ -6,7 +6,7 @@ A Docker container which serves an HTML string. Ideal for using as a template in
 ```yaml
 services:
   myservice:
-    image: "test"
+    image: "ghcr.io/turt2live/template-container:main"
     ports:
       - 8080:80
     environment:
